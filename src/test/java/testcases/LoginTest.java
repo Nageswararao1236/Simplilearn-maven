@@ -32,7 +32,7 @@ public class LoginTest extends BaseClass {
 		login.LoginFunction("abc@test2.com", "Password@2");
 
 	}
-	
+
 	@Test
 	public void test4() throws InterruptedException, FilloException {
 		LoginPage login = new LoginPage(driver);
@@ -42,6 +42,5 @@ public class LoginTest extends BaseClass {
 		String password = recordset.getField("Password");
 		login.LoginFunction(username, password);
 
-	
 	}
 }

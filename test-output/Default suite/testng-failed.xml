@@ -8,7 +8,7 @@
           <include name="setup"/>
           <include name="Teardown"/>
           <include name="ReportClean"/>
-          <include name="test4"/>
+          <include name="test1"/>
           <include name="ReportSetUp"/>
         </methods>
       </class> <!-- testcases.LoginTest -->
